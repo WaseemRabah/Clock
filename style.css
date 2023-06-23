@@ -7,6 +7,7 @@
 *::after {
 box-sizing: border-box;
 font-family: 'Rubik Wet Paint',sans-serif;
+font-size: 1.5rem;
 margin: 0;
 padding: 0;
 }
@@ -42,3 +43,16 @@ body{
     transform: rotate(var(--rotation));
 }
 
+/*Adding the rotation to every number on the clock*/
+.clock .one{ --rotation: 30deg; }
+.clock .two{ --rotation: 60deg; }
+.clock .three{ --rotation: 90deg; }
+.clock .four{ --rotation: 120deg; }
+.clock .five{ --rotation: 150deg; }
+.clock .six{ --rotation: 180deg; }
+.clock .seven{ --rotation: 210deg; }
+.clock .eight{ --rotation: 240deg; }
+.clock .nine{ --rotation: 270deg; }
+.clock .ten{ --rotation: 300deg; }
+.clock .eleven{ --rotation: 330deg; }
+.clock .twelve{ --rotation: 360deg; }
