@@ -16,6 +16,9 @@ padding: 0;
 body{
     min-height: 100vh;
     background: linear-gradient(to bottom right,rgb(106, 31, 219),rgb(110, 24, 201),rgb(136, 18, 136));
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*Adding style to the main div element that contain the clock */
