@@ -56,3 +56,20 @@ body{
 .clock .ten{ --rotation: 300deg; }
 .clock .eleven{ --rotation: 330deg; }
 .clock .twelve{ --rotation: 360deg; }
+
+/*Adding style to the Clock hands*/
+.clock .hand{
+    --rotation: 0;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    background-color: black;
+    /*translate the object 50% of its width backwords to make the hands dead center on the number*/
+    transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
+    transform-origin: bottom;
+    border: 2px solid rgb(149, 255, 0);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    /*To make the hand on the top of the number*/
+    z-index: 10;
+}
