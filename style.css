@@ -16,3 +16,14 @@ body{
     min-height: 100vh;
     background: linear-gradient(to bottom right,rgb(106, 31, 219),rgb(110, 24, 201),rgb(136, 18, 136));
 }
+
+/*Adding style to the main div element that contain the clock */
+.clock{
+    /*setting the clock width and height equal to making it circle*/
+    width: 400px;
+    height: 400px;
+    background-color: rgb(255, 255, 255, .7);
+    /*using border radius 50% to make the clock div circle*/
+    border-radius: 50%;
+    border: 3px solid rgb(149, 255, 0);
+}
