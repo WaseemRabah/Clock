@@ -1,0 +1,11 @@
+/*Adding font*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+
+/*Adding general declaration*/
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
