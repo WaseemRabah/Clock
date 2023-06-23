@@ -6,6 +6,13 @@
 *::before,
 *::after {
 box-sizing: border-box;
+font-family: 'Rubik Wet Paint',sans-serif;
 margin: 0;
 padding: 0;
+}
+
+/*Adding some style to the body*/
+body{
+    min-height: 100vh;
+    background: linear-gradient(to bottom right,rgb(106, 31, 219),rgb(110, 24, 201),rgb(136, 18, 136));
 }
